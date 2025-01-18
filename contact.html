@@ -46,7 +46,17 @@ nav{
     left: 0;
     background: #fff;
     box-shadow: 2px 1px 10px #ad9d9d;
-    z-index: 2;
+    z-index: 10;
+}
+a{
+    text-decoration: none;
+    color: #494646;
+}
+nav img{
+    width: 150px;
+}
+.mobile-menu .logo{
+    width: 150px;
 }
 nav .links{
     display: flex;
@@ -113,7 +123,7 @@ nav .menu{
         top: 0;
         background-color: #ffffff;
         box-shadow: 2px 1px 10px #ad9d9d;
-        z-index: 2;
+        z-index: 11;
         transform: translateX(350px);
         transition: transform ease-in-out 1s;
     }
@@ -240,7 +250,7 @@ nav .menu{
 <body>
     <nav>
         <div class="logo">
-            <img src="./images/logo.svg" alt="">
+            <img src="./images/logo.png" alt="">
         </div>
         <ul class="links">
             <li class="link"><h4><a href="./index.html">Home</a></h4></li>
@@ -260,7 +270,7 @@ nav .menu{
      <div class="mobile-menu">
         <i class="ri-close-circle-fill close"></i>
         <div class="logo">
-            <img src="./images/logo.svg" alt="">
+            <img src="./images/logo.png" class="logo" alt="">
         </div> 
         <ul class="links">
             <li class="link"><h4><a href="./index.html">Home</a></h4></li>

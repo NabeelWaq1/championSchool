@@ -57,7 +57,13 @@ nav{
     left: 0;
     background: #fff;
     box-shadow: 2px 1px 10px #ad9d9d;
-    z-index: 2;
+    z-index: 10;
+}
+nav img{
+    width: 150px;
+}
+.mobile-menu .logo{
+    width: 150px;
 }
 nav .links{
     display: flex;
@@ -270,7 +276,7 @@ main{
         top: 0;
         background-color: #ffffff;
         box-shadow: 2px 1px 10px #ad9d9d;
-        z-index: 2;
+        z-index: 11;
         transform: translateX(350px);
         transition: transform ease-in-out 1s;
     }
